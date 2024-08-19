@@ -5,3 +5,18 @@ body{
     background-color: #f4f4f4;
     color: #333;
 }
+.header{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav ul li {
+    margin: 10px;
+}
