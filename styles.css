@@ -1,11 +1,11 @@
-body{
+body {
     font-family: Arial, san-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
-.header{
+.header {
     background-color: #4caf50;
     color: white;
     text-align: center;
@@ -19,4 +19,12 @@ body{
 }
 .nav ul li {
     margin: 10px;
+}
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer {
+    color: black;
+    text-align: center;
 }
