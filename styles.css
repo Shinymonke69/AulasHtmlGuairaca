@@ -27,16 +27,33 @@ main {
 }
 .movie-grid {
     display: flex;
-@@ -45,7 +46,7 @@ main {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+.movie {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    overflow: hideen;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 .movie img {
     width: 100%;
-    height: auto;
     height: 400px;
 }
 .movie h2 {
     font-size: 20px;
-@@ -56,3 +57,46 @@ main {
+    margin: 10px;
+}
+.movie p {
+    font-size: 15px;
     color: #666;
     padding: 0 10px 20px;
 }
